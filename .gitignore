@@ -1,2 +1,9 @@
 SRR30833064.fastq
 SRR30833065.fastq
+.Rhistory
+*.txt
+*.log
+*.json
+*.zip
+*.sra
+/.Rproj.*
