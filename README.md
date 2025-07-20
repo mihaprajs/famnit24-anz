@@ -1,34 +1,41 @@
-<p align="center">
-  <img src="famnit.png" style="padding: 32px" />
-</p>
+# NCBI Datasets
 
-# UP FAMNIT - Analiza Nukleotidnih Zaporedji - 2024/2025
+https://www.ncbi.nlm.nih.gov/datasets
 
-Professor: doc. dr. Matjaž Hladnik
+This zip archive contains an NCBI Datasets Data Package.
 
-Practice assistant: Stefan Cidilko
+NCBI Datasets Data Packages can include sequence, annotation and other data files, and metadata in one or more data report files.
+Data report files are in JSON Lines format.
 
-## Intro
+---
+## FAQs
+### Where is the data I requested?
 
-The repository serves as a personal archive of all code written during the course of ANZ at UP FAMNIT. The code is written in Ocaml.
+Your data is in the subdirectory `ncbi_dataset/data/` contained within this zip archive.
 
-**!!! Code in this repository is a wild mix of genius and "oopsie doopsies" - it’s shared !!! after !!! submitting my assignments, so expect adventures (and bugs). Use or copy at your risk !!!**
+### I still can't find my data, can you help?
 
-**FOR "I AM THE SMARTEST IDIOT" CLASSMATE(S): this IS NOT a free ride for your homework. When you get caught using my gigabrain, I'll proudly wave this repository, timestamps, hidden indicators, as proof of my originality while you get a front-row seat to your ethics hearing. Consider yourself warned 💅**
+We have identified a bug affecting Mac Safari users. When downloading data from the NCBI Datasets web interface, you may see only this README file after the download has completed (while other files appear to be missing).
+As a workaround to prevent this issue from recurring, we recommend disabling automatic zip archive extraction in Safari until Apple releases a bug fix.
+For more information, visit:
+https://www.ncbi.nlm.nih.gov/datasets/docs/reference-docs/mac-zip-bug/
 
-<!--
-## Folder structure
+### How do I work with JSON Lines data reports?
 
-1. Classification based on class type:
-    - `practice` - Contains code from lab practice
-    - `HW` - Contains homeworks
+Visit our JSON Lines data report documentation page:
+https://www.ncbi.nlm.nih.gov/datasets/docs/v2/tutorials/working-with-jsonl-data-reports/
 
-2. Organised code by name (practice[practice number]).
+### What is NCBI Datasets?
 
-3. Optionally organised further to maintain a clean structure.
--->
+NCBI Datasets is a resource that lets you easily gather data from across NCBI databases. Find and download gene, transcript, protein and genome sequences, annotation and metadata.
 
-## Contributions
-This is a personal space, thus contributions or pull requests will most likely not be accepted. 
+### Where can I find NCBI Datasets documentation?
 
-Template and organization system by [Matic Boncina](https://github.com/maticboncina).
+Visit the NCBI Datasets documentation pages:
+https://www.ncbi.nlm.nih.gov/datasets/docs/
+
+---
+
+National Center for Biotechnology Information
+National Library of Medicine
+info@ncbi.nlm.nih.gov
